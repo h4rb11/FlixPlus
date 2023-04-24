@@ -1,7 +1,14 @@
+import {Form,} from 'react-bootstrap'
+
 function Review() {
   return (
 
-<form>
+<>
+<div className="tell">
+<h5>Tell everyone about a Movie!</h5>
+</div>
+
+<Form>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
@@ -15,8 +22,9 @@ function Review() {
     <label for="exampleInputAddDetails">Details</label>
     <input type="add" class="form-control" id="exampleInputAddDetails" placeholder="AddDetails"/>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+  <button type="submit" class="btn-primary">Submit</button>
+</Form>
+</>
 
   );
 }

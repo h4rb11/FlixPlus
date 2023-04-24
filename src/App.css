@@ -56,3 +56,35 @@ card {
 .navbar-nav .nav-item .nav-link.active {
   background-color: #f2f2f2;
 }
+
+
+.form-group {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+
+#exampleInputAddDetails {
+  min-height: 150px;
+}
+
+.form-control {
+  height: 30px;
+  width: 100px;
+}
+
+.btn-primary {
+  float:right;
+  margin-right: 100px;
+  border-radius: 15%;
+  background-color: #360cf1;
+  color: #fff;
+  width: 70px;
+  height: 35px;
+}
+
+.tell {
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
