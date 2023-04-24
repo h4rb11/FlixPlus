@@ -15,7 +15,9 @@ return(
               <LinkContainer to="/categories">
                 <Nav.Link href="#categories">Categories</Nav.Link>
               </LinkContainer>
+              <LinkContainer to="/review">
               <Nav.Link href="#submit">Submit a Review</Nav.Link>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Container>

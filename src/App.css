@@ -1,4 +1,4 @@
-.card {
+card {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 350px;
   height: 410px;
@@ -56,6 +56,3 @@
 .navbar-nav .nav-item .nav-link.active {
   background-color: #f2f2f2;
 }
-
-
-

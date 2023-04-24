@@ -7,6 +7,7 @@ import {Routes, Route} from 'react-router-dom'
 
 import Home from './pages/Home'
 import Categories from './pages/Categories'
+import Review from './pages/Review'
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
           <Route
             path="/categories"
             element={<Categories/>}
+          />
+          <Route
+            path="/review"
+            element={<Review/>}
           />
         </Routes>
       </div>

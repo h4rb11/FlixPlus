@@ -1,7 +1,6 @@
-import './App.css';
+
 import React from 'react';
 import {Navbar, Container, Nav, Card, Row, Col, Image, Button,} from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home() {
   return (
