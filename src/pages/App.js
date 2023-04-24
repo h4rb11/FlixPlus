@@ -7,7 +7,20 @@ function App() {
   return (
 
       <div className="App-header">
-        
+        <header>
+        <Navbar expand="lg" className="custom-nav">
+          <Container>
+            <Navbar.Brand href="#home">Flix+</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="me-auto">
+                <Nav.Link href="#categories">Categories</Nav.Link>
+                <Nav.Link href="#submit">Submit a Review</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
+        </header>
         <main className='mainbg'>
       <Container>
       <Row className="px-4 my-5">

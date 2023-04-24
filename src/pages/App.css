@@ -12,6 +12,14 @@
    
 }
 
+/* navbar */
+.navbar {
+  background-color: #360cf1;
+  height: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
 /* navbar brand YUNG FONT SIZE TAS MARGIN DI NAAAPEKTUHAN*/
 .navbar-brand {
   font-weight: 700;
@@ -19,6 +27,7 @@
   margin-left: 15%;
   margin-right: 15%;
 }
+
 /* navbar links */
 .navbar-nav .nav-link {
   font-weight: 500;
